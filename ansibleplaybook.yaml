@@ -1,0 +1,10 @@
+---
+- name: create user
+  hosts: dev
+  become: yes
+  tasks:
+  - name: create user
+     user:
+     name: manasa
+     password: 143
+...
