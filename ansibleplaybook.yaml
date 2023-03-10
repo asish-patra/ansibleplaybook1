@@ -5,6 +5,6 @@
   tasks:
     - name: create user
       user:
-        name: manasa
+        name: asish
         password: 143
 ...    
